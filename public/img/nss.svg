@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 0 389.51245 86.149293"
+   id="svg4219"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="nss.svg"
+   width="389.51245"
+   height="86.149292">
+  <metadata
+     id="metadata4230">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs4228" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1831"
+     inkscape:window-height="1047"
+     id="namedview4226"
+     showgrid="false"
+     fit-margin-top="1"
+     fit-margin-left="1"
+     fit-margin-right="1"
+     fit-margin-bottom="1"
+     inkscape:zoom="1.78"
+     inkscape:cx="157.49336"
+     inkscape:cy="-116.78436"
+     inkscape:window-x="89"
+     inkscape:window-y="33"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg4219" />
+  <path
+     id="curve"
+     d="m 20.906227,66.720483 c 4,-3.06203 65.5,-48.59088 178.600003,-47.988514 111.3,0.602366 170.8,45.328064 175.1,48.691274"
+     style="fill:none;fill-opacity:1"
+     inkscape:connector-curvature="0" />
+  <text
+     width="500"
+     id="text4222"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:33.125px;line-height:139.99999762%;font-family:'Carta Magna Line';-inkscape-font-specification:'Carta Magna Line, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start"
+     sodipodi:linespacing="140%"
+     transform="translate(-4.7596107,12.501629)">
+    <textPath
+       xlink:href="#curve"
+       id="textPath4224"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:41.875px;line-height:139.99999762%;font-family:'Olde English';-inkscape-font-specification:'Olde English, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start"
+       startOffset="%">Nashville Software School</textPath>
+  </text>
+</svg>

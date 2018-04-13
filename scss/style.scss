@@ -4,8 +4,8 @@ $medium-large: 65rem;
 $large-xlarge: 80rem;
 
 @font-face {
-  font-family: 'Carta Magna';
-  src: url('/public/fonts/cm.ttf') format('truetype');
+  font-family: 'Olde English';
+  src: url('/public/fonts/OldeEnglish.ttf') format('truetype');
 }
 
 body {
@@ -35,7 +35,7 @@ img {
 }
 
 h1 {
-  font-family: 'Carta Magna';
+  font-family: 'Olde English';
   font-weight: 400;
   font-size: 3rem;
 }
@@ -44,6 +44,7 @@ h4 {
   font-weight: 400;
 }
 #header {
+  margin-bottom: -2rem;
   grid-column: 1 / span 2;
   @media (min-width: $xsmall-small) {
     grid-column: 1 / span 4;
@@ -54,23 +55,39 @@ h4 {
   @media (min-width: $medium-large) {
     grid-column: 1 / span 8;
   }
+  img {
+    width: 80%;
+    max-width: 50rem;
+    margin: 1rem auto 0;
+  }
 }
 #school {
-  background-size: cover;
-  background-position: center;
-  min-height: 15rem;
+  padding: 0 1rem 1rem 1rem;
+  .img {
+    background-size: cover;
+    background-position: center;
+    min-height: 15rem;
+  }
+  .text {
+    font-family: "Olde English";
+    font-size: 4rem;
+    padding-top: .5rem;
+  }
   grid-row: 2 / span 1;
   grid-column: 1 / -1;
+  display: grid;
+  grid-template-rows: 1fr auto;
   filter: sepia(20%) grayscale(60%) brightness(90%) contrast(120%) brightness(110%);
   @media (min-width: $small-medium) {
-    margin: 0 17%;
+    padding: 0 17% 1rem 17%;
   }
   @media (min-width: $medium-large) {
-    margin: 0;
+    padding: 0 1rem 1rem 1rem;
     grid-column: 3 / span 4;
   }
 }
 .student {
+  align-self: end;
   img {
     border-radius: 50%;
     filter: sepia(20%) grayscale(60%) brightness(60%) contrast(120%) brightness(160%);
