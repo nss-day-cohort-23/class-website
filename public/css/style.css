@@ -15,7 +15,7 @@ body {
       grid-template-columns: repeat(4, 1fr); } }
   @media (min-width: 45rem) {
     body {
-      grid-template-columns: repeat(6, 1fr); } }
+      grid-template-columns: repeat(12, 1fr); } }
   @media (min-width: 65rem) {
     body {
       grid-template-columns: repeat(8, 1fr); } }
@@ -33,16 +33,9 @@ h4 {
   font-weight: 400; }
 
 #header {
-  grid-column: 1 / span 2; }
-  @media (min-width: 30rem) {
-    #header {
-      grid-column: 1 / span 4; } }
-  @media (min-width: 45rem) {
-    #header {
-      grid-column: 1 / span 6; } }
+  grid-column: 1 / -1; }
   @media (min-width: 65rem) {
     #header {
-      grid-column: 1 / span 8;
       margin-bottom: -2rem; } }
   #header img {
     width: 80%;
@@ -86,7 +79,17 @@ h4 {
       grid-column: 3 / span 4; } }
 
 .student {
-  align-self: end; }
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%; }
+  @media (min-width: 45rem) {
+    .student {
+      grid-column-end: span 2; }
+      .student:nth-child(3), .student:nth-child(20) {
+        grid-column-start: 2; }
+      .student:nth-child(25) {
+        grid-column-start: 4; } }
   .student .imgs {
     position: relative; }
   .student img {
