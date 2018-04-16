@@ -1,6 +1,7 @@
 each student in students
   .student
-    .imgs
-      img(src=student.img+'1.jpg')
-      img(src=student.img+'2.jpg')
-    h4= student.name
+    if student
+      .imgs
+        img(src=student.img+'1.jpg')
+        img(src=student.img+'2.jpg')
+      h4= student.name

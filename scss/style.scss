@@ -1,7 +1,7 @@
 $xsmall-small: 30rem;
 $small-medium: 45rem;
-$medium-large: 65rem;
-$large-xlarge: 80rem;
+$medium-large: 60rem;
+$large-xlarge: 70rem;
 
 @font-face {
   font-family: 'Olde English';
@@ -26,7 +26,7 @@ body {
     // background: orange;
   }
   @media (min-width: $medium-large) {
-    grid-template-columns: repeat(8, 1fr);
+    grid-template-columns: repeat(16, 1fr);
     // background: red;
   }
 }
@@ -34,29 +34,34 @@ img {
   max-width: 100%;
 }
 
-h1 {
+h1,h3 {
   font-family: 'Olde English';
   font-weight: 400;
+  font-size: 4rem;
+  margin: 1rem 0;
+}
+h3 {
   font-size: 3rem;
 }
 h4 {
   font-family: 'Kavivanar';
   font-weight: 400;
 }
-#header {
+h1 {
+  grid-row: 1 / span 1;
   grid-column: 1 / -1;
-  @media (min-width: $medium-large) {
-    margin-bottom: -2rem;
-  }
-  img {
-    width: 80%;
-    max-width: 50rem;
-    margin: 1rem auto 0;
-  }
 }
 #school {
+  grid-row: 2 / span 1;
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-rows: 1fr auto;
   @media (min-width: $small-medium) {
+    grid-column: 2 / span 10;
+  }
+  @media (min-width: $medium-large) {
     padding: 0 1rem 1rem 1rem;
+    grid-column: 5 / span 8;
   }
   .img {
     position: relative;
@@ -89,18 +94,6 @@ h4 {
     font-size: 4rem;
     padding-top: .5rem;
   }
-  grid-row: 2 / span 1;
-  grid-column: 1 / -1;
-  display: grid;
-  grid-template-rows: 1fr auto;
-  @media (min-width: $small-medium) {
-    padding: 0 17% 1rem 17%;
-    // grid-column
-  }
-  @media (min-width: $medium-large) {
-    padding: 0 1rem 1rem 1rem;
-    grid-column: 3 / span 4;
-  }
 }
 .student {
   display: flex;
@@ -108,12 +101,14 @@ h4 {
   justify-content: space-between;
   height: 100%;
   @media (min-width: $small-medium) {
-    grid-column-end: span 2;
-    &:nth-child(3), &:nth-child(20) {
-      grid-column-start: 2;
+    grid-column: span 2;
+  }
+  @media (min-width: $small-medium) and (max-width: $medium-large) {
+    &:nth-child(3), &:nth-child(14) {
+      grid-column: 2 / span 2;
     }
     &:nth-child(25) {
-      grid-column-start: 4;
+      grid-column: 4 / span 2;
     }
   }
   .imgs {
