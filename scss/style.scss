@@ -88,9 +88,24 @@ h4 {
 }
 .student {
   align-self: end;
+  .imgs {
+    position: relative;
+  }
   img {
     border-radius: 50%;
+  }
+  img:nth-child(1) {
     filter: sepia(20%) grayscale(60%) brightness(60%) contrast(120%) brightness(160%);
+  }
+  img:nth-child(2) {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: .2s ease-in;
+  }
+  &:hover img:nth-child(2) {
+    opacity: 1;
   }
   h4 {
     margin: .25rem 0 0 0;
