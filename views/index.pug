@@ -2,6 +2,8 @@ extends base.pug
 
 block content
   div(id='school')
-    div(class='img', style='background-image:url(public/img/group1.jpg)')
+    div(class='img')
+      img(src='public/img/group1.jpg')
+      img(src='public/img/group2.jpg')
     div(class='text')= 'Cohort 23'
   include class.pug
