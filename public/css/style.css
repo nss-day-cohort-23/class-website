@@ -19,6 +19,9 @@ body {
   @media (min-width: 60rem) {
     body {
       grid-template-columns: repeat(16, 1fr); } }
+  @media (min-width: 70rem) {
+    body {
+      grid-template-columns: repeat(18, 1fr); } }
 
 img {
   max-width: 100%; }
@@ -52,6 +55,9 @@ h1 {
     #school {
       padding: 0 1rem 1rem 1rem;
       grid-column: 5 / span 8; } }
+  @media (min-width: 70rem) {
+    #school {
+      grid-column: 5 / span 10; } }
   #school .img {
     position: relative; }
     #school .img img {
@@ -74,9 +80,10 @@ h1 {
     padding-top: .5rem; }
 
 .student {
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-between;
   height: 100%; }
   @media (min-width: 45rem) {
     .student {
@@ -85,6 +92,22 @@ h1 {
     .student:nth-child(3), .student:nth-child(14) {
       grid-column: 2 / span 2; }
     .student:nth-child(25) {
+      grid-column: 4 / span 2; } }
+  @media (min-width: 60rem) and (max-width: 70rem) {
+    .student:nth-child(3), .student:nth-child(4), .student:nth-child(5), .student:nth-child(6) {
+      padding-top: 3rem; }
+    .student:nth-child(7) {
+      grid-column: 2 / span 2; }
+    .student:nth-child(22) {
+      grid-column: 3 / span 2; } }
+  @media (min-width: 70rem) {
+    .student:nth-child(3), .student:nth-child(4), .student:nth-child(5), .student:nth-child(6) {
+      padding-top: 8rem; }
+    .student:nth-child(7) {
+      grid-column: 2 / span 2; }
+    .student:nth-child(15) {
+      grid-column: 3 / span 2; }
+    .student:nth-child(22) {
       grid-column: 4 / span 2; } }
   .student .imgs {
     position: relative; }

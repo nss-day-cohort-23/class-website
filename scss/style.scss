@@ -16,18 +16,17 @@ body {
   grid-gap: .6rem;
   padding: 1rem;
   grid-template-columns: repeat(2, 1fr);
-  // background: green;
   @media (min-width: $xsmall-small) {
     grid-template-columns: repeat(4, 1fr);
-    // background: yellow;
   }
   @media (min-width: $small-medium) {
     grid-template-columns: repeat(12, 1fr);
-    // background: orange;
   }
   @media (min-width: $medium-large) {
     grid-template-columns: repeat(16, 1fr);
-    // background: red;
+  }
+  @media (min-width: $large-xlarge) {
+    grid-template-columns: repeat(18, 1fr);
   }
 }
 img {
@@ -63,6 +62,9 @@ h1 {
     padding: 0 1rem 1rem 1rem;
     grid-column: 5 / span 8;
   }
+  @media (min-width: $large-xlarge) {
+    grid-column: 5 / span 10;
+  }
   .img {
     position: relative;
     img {
@@ -96,9 +98,10 @@ h1 {
   }
 }
 .student {
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-between;
   height: 100%;
   @media (min-width: $small-medium) {
     grid-column: span 2;
@@ -110,6 +113,34 @@ h1 {
     &:nth-child(25) {
       grid-column: 4 / span 2;
     }
+  }
+  @media (min-width: $medium-large) and (max-width: $large-xlarge) {
+    &:nth-child(3), &:nth-child(4), &:nth-child(5), &:nth-child(6) {
+      padding-top: 3rem;
+    }
+    &:nth-child(7) {
+      grid-column: 2 / span 2;
+    }
+    &:nth-child(22) {
+      grid-column: 3 / span 2;
+    }
+  }
+  @media (min-width: $large-xlarge) {
+    &:nth-child(3), &:nth-child(4), &:nth-child(5), &:nth-child(6) {
+      padding-top: 8rem;
+    }
+    &:nth-child(7) {
+      grid-column: 2 / span 2;
+    }
+    &:nth-child(15) {
+      grid-column: 3 / span 2;
+    }
+    &:nth-child(22) {
+      grid-column: 4 / span 2;
+    }
+  }
+  @media (min-width: $large-xlarge) {
+
   }
   .imgs {
     position: relative;
