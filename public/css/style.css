@@ -33,7 +33,6 @@ h4 {
   font-weight: 400; }
 
 #header {
-  margin-bottom: -2rem;
   grid-column: 1 / span 2; }
   @media (min-width: 30rem) {
     #header {
@@ -43,7 +42,8 @@ h4 {
       grid-column: 1 / span 6; } }
   @media (min-width: 65rem) {
     #header {
-      grid-column: 1 / span 8; } }
+      grid-column: 1 / span 8;
+      margin-bottom: -2rem; } }
   #header img {
     width: 80%;
     max-width: 50rem;

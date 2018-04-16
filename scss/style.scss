@@ -44,7 +44,6 @@ h4 {
   font-weight: 400;
 }
 #header {
-  margin-bottom: -2rem;
   grid-column: 1 / span 2;
   @media (min-width: $xsmall-small) {
     grid-column: 1 / span 4;
@@ -54,6 +53,7 @@ h4 {
   }
   @media (min-width: $medium-large) {
     grid-column: 1 / span 8;
+    margin-bottom: -2rem;
   }
   img {
     width: 80%;
