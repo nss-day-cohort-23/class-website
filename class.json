@@ -12,11 +12,13 @@
     },
     {
       "name": "Jake Brose",
-      "img": "public/img/brose"
+      "img": "public/img/brose",
+      "bio": "I am a musician turned software engineer with a interest in virtual and augmented reality."
     },
     {
       "name": "Courtney Brothers",
-      "img": "public/img/brothers"
+      "img": "public/img/brothers",
+      "bio": "\"If art interprets our dreams, the computer executes them in the guise of programs.\"  - Alan J. Perlis"
     },
     {
       "name": "Jordan Castelloe",
@@ -27,7 +29,7 @@
       "img": "public/img/chesney"
     },
     {
-      "name": "Tim Conner",
+      "name": "Tim A. Conner",
       "img": "public/img/conner"
     },
     {
@@ -52,7 +54,8 @@
     },
     {
       "name": "David Ketch",
-      "img": "public/img/ketch"
+      "img": "public/img/ketch",
+      "bio": "Former: academic philosophy, current: software developer. Fintech, legal tech."
     },
     {
       "name": "Ben Marcantel",
@@ -64,7 +67,8 @@
     },
     {
       "name": "Sarah Morris",
-      "img": "public/img/morris"
+      "img": "public/img/morris",
+      "bio": "Self-proclaimed wine connoisseur (WSET level two student); pursuing my private pilot's license; Apple cult member (kidding...sort of); mindfulness meditator"
     },
     {
       "name": "Trey Mosley",
@@ -76,15 +80,18 @@
     },
     {
       "name": "Hunter Phillips",
-      "img": "public/img/phillips"
+      "img": "public/img/phillips",
+      "bio": "Current interests: python, machine learning, Freakonomics Radio, Nashville breweries"
     },
     {
       "name": "Kate Rieger",
-      "img": "public/img/rieger"
+      "img": "public/img/rieger",
+      "bio": "Can I respond to this later?"
     },
     {
       "name": "Kyle Saldana",
-      "img": "public/img/saldana"
+      "img": "public/img/saldana",
+      "bio": "I am result of intriguing accidents in life."
     },
     {
       "name": "Slade Utley",
@@ -92,7 +99,8 @@
     },
     {
       "name": "Eli Wilson",
-      "img": "public/img/wilson"
+      "img": "public/img/wilson",
+      "bio": "I like rock climbing and sky diving"
     },
     {
       "name": "Aaron Wolfcale",

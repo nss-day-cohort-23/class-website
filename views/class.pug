@@ -1,11 +1,11 @@
 each student in students
   .student
     if student
-      .imgs(data-toggle='modal', data-target='#'+student.name.split(" ")[0])
+      .imgs(data-toggle='modal', data-target='#'+student.name.split(" ").reverse()[0])
         img(src=student.img+'1.jpg')
         img(src=student.img+'2.jpg')
       h4= student.name
-      .modal.fade(tabindex='-1', role='dialog', id=student.name.split(" ")[0])
+      .modal.fade(tabindex='-1', role='dialog', id=student.name.split(" ").reverse()[0])
         .modal-dialog
           .modal-content
             .modal-body
