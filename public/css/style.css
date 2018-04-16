@@ -7,7 +7,7 @@ body {
   text-align: center;
   background: radial-gradient(ellipse at center, #fff 0%, #fff 75%, #EBE1DF 100%);
   display: grid;
-  grid-gap: .6rem;
+  grid-gap: 1.5rem;
   padding: 1rem;
   grid-template-columns: repeat(2, 1fr); }
   @media (min-width: 30rem) {
@@ -36,6 +36,8 @@ h3 {
   font-size: 3rem; }
 
 h4 {
+  font-size: 1.25rem;
+  margin-top: 1rem;
   font-family: 'Kavivanar';
   font-weight: 400; }
 
@@ -112,7 +114,8 @@ h1 {
   .student .imgs {
     position: relative; }
   .student img {
-    border-radius: 50%; }
+    border-radius: 50%;
+    box-shadow: 1px 2px 8px 0px rgba(0, 0, 0, 0.3); }
   .student img:nth-child(1) {
     filter: sepia(20%) grayscale(60%) brightness(60%) contrast(120%) brightness(160%); }
   .student img:nth-child(2) {
@@ -123,5 +126,18 @@ h1 {
     transition: .2s ease-in; }
   .student:hover img:nth-child(2) {
     opacity: 1; }
-  .student h4 {
-    margin: .25rem 0 0 0; }
+
+.modal .modal-body {
+  padding: 1.5rem; }
+  .modal .modal-body img {
+    filter: none !important; }
+  .modal .modal-body .col {
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch; }
+    .modal .modal-body .col blockquote {
+      flex-grow: 1; }
+    .modal .modal-body .col .bottom-line {
+      display: block;
+      align-self: flex-end;
+      flex-grow: none; }

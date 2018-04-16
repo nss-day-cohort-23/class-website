@@ -2,11 +2,13 @@
   "students": [
     {
       "name": "Melissa Bell",
-      "img": "public/img/bell"
+      "img": "public/img/bell",
+      "bio": "gardening, jigsaw puzzles, hiking, baking"
     },
     {
       "name": "Kenzie Bottoms",
-      "img": "public/img/bottoms"
+      "img": "public/img/bottoms",
+      "bio": "(Not so) secretly competetive artist and feminist who enjoys puzzles"
     },
     {
       "name": "Jake Brose",
@@ -98,7 +100,8 @@
     },
     {
       "name": "Spencer York",
-      "img": "public/img/york"
+      "img": "public/img/york",
+      "bio": "Chocolate milk runs through my veins."
     }
   ]
 }
