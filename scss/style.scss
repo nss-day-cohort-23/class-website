@@ -176,9 +176,21 @@ h1 {
         flex-grow: 1;
       }
       .bottom-line {
-        display: block;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
         align-self: flex-end;
-        flex-grow: none;
+        flex-grow: 0;
+        img {
+          border-radius: 0;
+          box-shadow: none;
+          width: 50px;
+          height: 50px;
+          opacity: .25;
+          &:hover {
+            opacity: .4;
+          }
+        }
       }
     }
   }

@@ -16,5 +16,11 @@ each student in students
                 .col.col-6.col-lg-8
                   blockquote= student.bio
                   .bottom-line
+                    if student.github
+                      a(href=student.github, target='_blank')
+                        img(src='public/img/github.png')
+                    if student.linkedin
+                      a(href=student.linkedin, target='_blank')
+                        img(src='public/img/linkedin.png')
                     button.close(type='button',data-dismiss='modal',aria-label='Close')
                       span(aria-hidden='true')= 'x'
