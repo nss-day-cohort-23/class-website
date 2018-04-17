@@ -183,3 +183,37 @@ blockquote {
   @media (min-width: 60rem) {
     #charts {
       grid-column: 2 / -2; } }
+
+#tech {
+  padding-bottom: 2rem;
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: repeat(2, auto); }
+  #tech .tech {
+    padding: 1rem 2rem;
+    filter: sepia(20%) grayscale(60%) brightness(90%) contrast(120%) brightness(110%);
+    text-align: center; }
+    #tech .tech a {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      text-decoration: none;
+      color: inherit;
+      text-align: center; }
+    #tech .tech:hover {
+      filter: none; }
+  @media (min-width: 30rem) {
+    #tech {
+      grid-template-columns: repeat(3, auto); } }
+  @media (min-width: 45rem) {
+    #tech {
+      grid-template-columns: repeat(6, auto); }
+      #tech .tech {
+        padding: 1rem; } }
+  @media (min-width: 60rem) {
+    #tech {
+      grid-template-columns: repeat(8, auto); } }
+  @media (min-width: 70rem) {
+    #tech {
+      grid-template-columns: repeat(10, auto); } }

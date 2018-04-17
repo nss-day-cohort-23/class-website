@@ -1,0 +1,49 @@
+{
+  "techStack": [
+    {
+      "name": "AngularJS",
+      "link": "https://angularjs.org/",
+      "img": "public/img/angularjs.svg"
+    },
+    {
+      "name": "Bootstrap",
+      "link": "https://getbootstrap.com/",
+      "img": "public/img/bootstrap.png"
+    },
+    {
+      "name": "Firebase",
+      "link": "https://firebase.google.com/",
+      "img": "public/img/firebase.png"
+    },
+    {
+      "name": "Grunt",
+      "link": "https://gruntjs.com/",
+      "img": "public/img/grunt.png"
+    },
+    {
+      "name": "Mocha JS",
+      "link": "https://mochajs.org/",
+      "img": "public/img/mocha.svg"
+    },
+    {
+      "name": "Node.js",
+      "link": "https://nodejs.org/en/",
+      "img": "public/img/node.png"
+    },
+    {
+      "name": "Node Package Manager",
+      "link": "https://www.npmjs.com/",
+      "img": "public/img/npm.png"
+    },
+    {
+      "name": "PostgreSQL",
+      "link": "https://www.postgresql.org/",
+      "img": "public/img/postgresql.png"
+    },
+    {
+      "name": "VS Code",
+      "link": "https://code.visualstudio.com/",
+      "img": "public/img/vscode.png"
+    }
+  ]
+}

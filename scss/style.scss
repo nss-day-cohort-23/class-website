@@ -236,3 +236,41 @@ blockquote {
     grid-column: 2 / -2;
   }
 }
+#tech {
+  padding-bottom: 2rem;
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  .tech {
+    padding: 1rem 2rem;
+    a {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      text-decoration: none;
+      color: inherit;
+      text-align: center;
+    }
+    filter: sepia(20%) grayscale(60%) brightness(90%) contrast(120%) brightness(110%);
+    text-align: center;
+    &:hover {
+      filter: none;
+    }
+  }
+  @media (min-width: $xsmall-small) {
+    grid-template-columns: repeat(3, auto);
+  }
+  @media (min-width: $small-medium) {
+    grid-template-columns: repeat(6, auto);
+    .tech {
+      padding: 1rem;
+    }
+  }
+  @media (min-width: $medium-large) {
+    grid-template-columns: repeat(8, auto);
+  }
+  @media (min-width: $large-xlarge) {
+    grid-template-columns: repeat(10, auto);
+  }
+}
