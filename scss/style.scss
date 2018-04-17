@@ -240,7 +240,7 @@ blockquote {
   padding-bottom: 2rem;
   grid-column: 1 / -1;
   display: grid;
-  grid-template-columns: repeat(2, auto);
+  grid-template-columns: repeat(2, 1fr);
   .tech {
     padding: 1rem 2rem;
     a {
@@ -259,18 +259,26 @@ blockquote {
     }
   }
   @media (min-width: $xsmall-small) {
-    grid-template-columns: repeat(3, auto);
+    grid-template-columns: repeat(3, 1fr);
   }
   @media (min-width: $small-medium) {
-    grid-template-columns: repeat(6, auto);
+    grid-template-columns: repeat(6, 1fr);
     .tech {
       padding: 1rem;
     }
   }
   @media (min-width: $medium-large) {
-    grid-template-columns: repeat(8, auto);
+    .tech {
+      padding: 2rem;
+    }
+    grid-column: 2 / -2;
+    grid-template-columns: repeat(6, 1fr);
   }
   @media (min-width: $large-xlarge) {
-    grid-template-columns: repeat(10, auto);
+    .tech {
+      padding: 1.5rem;
+    }
+    grid-column: 2 / -2;
+    grid-template-columns: repeat(8, 1fr);
   }
 }

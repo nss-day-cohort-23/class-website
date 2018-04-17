@@ -3,7 +3,7 @@
     {
       "name": "AngularJS",
       "link": "https://angularjs.org/",
-      "img": "public/img/angularjs.svg"
+      "img": "public/img/angularjs.png"
     },
     {
       "name": "Bootstrap",
@@ -16,12 +16,22 @@
       "img": "public/img/firebase.png"
     },
     {
+      "name": "Git",
+      "link": "https://git-scm.com/",
+      "img": "public/img/git.png"
+    },
+    {
       "name": "Grunt",
       "link": "https://gruntjs.com/",
       "img": "public/img/grunt.png"
     },
     {
-      "name": "Mocha JS",
+      "name": "Materialize",
+      "link": "http://materializecss.com/",
+      "img": "public/img/materialize.png"
+    },
+    {
+      "name": "Mocha",
       "link": "https://mochajs.org/",
       "img": "public/img/mocha.svg"
     },
@@ -39,6 +49,21 @@
       "name": "PostgreSQL",
       "link": "https://www.postgresql.org/",
       "img": "public/img/postgresql.png"
+    },
+    {
+      "name": "Pug",
+      "link": "https://pugjs.org/api/getting-started.html",
+      "img": "public/img/pug.png"
+    },
+    {
+      "name": "Sass",
+      "link": "https://sass-lang.com/",
+      "img": "public/img/sass.svg"
+    },
+    {
+      "name": "Sequelize",
+      "link": "http://docs.sequelizejs.com/",
+      "img": "public/img/sequelize.png"
     },
     {
       "name": "VS Code",
