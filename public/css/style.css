@@ -163,7 +163,21 @@ blockquote {
           opacity: .4; }
 
 #charts {
+  padding-bottom: 2rem;
   grid-column: 1 / -1; }
+  #charts .chart {
+    margin-bottom: 2rem; }
+  @media (min-width: 30rem) {
+    #charts {
+      padding-left: 3rem;
+      padding-right: 3rem; } }
+  @media (min-width: 45rem) {
+    #charts {
+      padding-left: 0;
+      padding-right: 0;
+      grid-column: 2 / -2; }
+      #charts .chart {
+        margin-bottom: 0; } }
   @media (min-width: 60rem) {
     #charts {
       grid-column: 2 / -2; } }
