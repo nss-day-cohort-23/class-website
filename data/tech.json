@@ -66,6 +66,11 @@
       "img": "public/img/sequelize.png"
     },
     {
+      "name": "Slack",
+      "link": "https://slack.com/",
+      "img": "public/img/slack.png"
+    },
+    {
       "name": "Trello",
       "link": "https://trello.com/",
       "img": "public/img/trello.png"
