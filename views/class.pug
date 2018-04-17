@@ -14,8 +14,19 @@ each student in students
                   img(src=student.img+'2.jpg')
                   h4= student.name
                 .col.col-6.col-lg-8
-                  blockquote= student.bio
+                  if student.superlative
+                    blockquote= student.superlative
+                  p= student.bio
                   .bottom-line
+                    if student.site
+                      a(href=student.site,target='_blank')
+                        i.material-icons= 'link'
+                    if student.cap1
+                      a(href=student.cap1,target='_blank')
+                        i.material-icons= 'extension'
+                    if student.cap2
+                      a(href=student.cap2,target='_blank')
+                        i.material-icons= 'extension'
                     if student.github
                       a(href=student.github, target='_blank')
                         img(src='public/img/github.png')
