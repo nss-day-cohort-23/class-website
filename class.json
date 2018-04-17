@@ -1,0 +1,279 @@
+{
+  "students": [
+    {
+      "name": "Melissa Bell",
+      "img": "public/img/bell",
+      "bio": "gardening, jigsaw puzzles, hiking, baking",
+      "github": "https://github.com/kenziebottoms",
+      "linkedin": "https://www.linkedin.com/in/kenzie-bottoms/",
+      "site": "",
+      "cap1": "https://mygarden-f2283.firebaseapp.com",
+      "cap2": "",
+      "superlative": "Most Likely to Ask a Question"
+    },
+    {
+      "name": "Kenzie Bottoms",
+      "img": "public/img/bottoms",
+      "bio": "(Not so) secretly competetive artist and feminist who enjoys puzzles",
+      "github": "https://github.com/kenziebottoms",
+      "linkedin": "https://www.linkedin.com/in/kenzie-bottoms/",
+      "site": "http://kenzie.ink",
+      "cap1": "http://kenzie.ink/nss-front-capstone-mixify/",
+      "cap2": "",
+      "superlative": "Most Unnecessary Commits"
+    },
+    {
+      "name": "Jake Brose",
+      "img": "public/img/brose",
+      "bio": "I am a musician turned software engineer with a interest in virtual and augmented reality.",
+      "github": "https://github.com/JakeBrose",
+      "linkedin": "https://www.linkedin.com/in/jake-brose/",
+      "site": "",
+      "cap1": "",
+      "cap2": "",
+      "superlative": "Most Kikely to Spend Hundreds of Dollars on a Stormtrooper Costume"
+    },
+    {
+      "name": "Courtney Brothers",
+      "img": "public/img/brothers",
+      "bio": "\"If art interprets our dreams, the computer executes them in the guise of programs.\"  - Alan J. Perlis",
+      "github": "https://github.com/CourtneyBrothers",
+      "linkedin": "https://www.linkedin.com/in/courtney-brothers-93893415a/",
+      "site": "",
+      "cap1": "",
+      "cap2": "",
+      "superlative": "Most Likely to Have Listened to a Podcast About It"
+    },
+    {
+      "name": "Jordan Castelloe",
+      "img": "public/img/castelloe",
+      "bio": "I'll talk your ear off about interactive fiction, ballad traditions, and barbecue.",
+      "github": "https://github.com/jordan-castelloe",
+      "linkedin": "https://www.linkedin.com/in/jordan-castelloe/",
+      "site": "https://jordan-castelloe.github.io/",
+      "cap1": "https://nss-capstone-75d59.firebaseapp.com",
+      "cap2": "",
+      "superlative": "Most Likely to Narrate Their Code with Made-Up Songs"
+    },
+    {
+      "name": "Joe Chesney",
+      "img": "public/img/chesney",
+      "bio": "I was born to create",
+      "github": "https://github.com/joechesney",
+      "linkedin": "https://www.linkedin.com/in/joe-chesney-216846b2/",
+      "site": "",
+      "cap1": "https://fec-jammr.firebaseapp.com",
+      "cap2": "",
+      "superlative": "Most Likely to Know How Superlatives Work"
+    },
+    {
+      "name": "Tim A. Conner",
+      "img": "public/img/conner",
+      "bio": "Creative writing, world-building, horticulture, game development, linguistics, chess, and pen-and-ink drawing.",
+      "github": "https://github.com/TimAConner",
+      "linkedin": "https://www.linkedin.com/in/TimAConner",
+      "site": "",
+      "cap1": "http://timaconner.com/Squirrels-VS-Dwarves/",
+      "cap2": "",
+      "superlative": "Most Function Names Longer Than This Sentence"
+    },
+    {
+      "name": "Eduardo DuQuesne",
+      "img": "public/img/duquesne",
+      "bio": "",
+      "github": "",
+      "linkedin": "",
+      "site": "",
+      "cap1": "",
+      "cap2": "",
+      "superlative": ""
+    },
+    {
+      "name": "Valerie Freeman",
+      "img": "public/img/freeman",
+      "bio": "",
+      "github": "",
+      "linkedin": "",
+      "site": "",
+      "cap1": "",
+      "cap2": "",
+      "superlative": ""
+    },
+    {
+      "name": "Brandon Green",
+      "img": "public/img/green",
+      "bio": "",
+      "github": "",
+      "linkedin": "",
+      "site": "",
+      "cap1": "",
+      "cap2": "",
+      "superlative": ""
+    },
+    {
+      "name": "David Hazlett",
+      "img": "public/img/hazlett",
+      "bio": "",
+      "github": "",
+      "linkedin": "",
+      "site": "",
+      "cap1": "",
+      "cap2": "",
+      "superlative": ""
+    },
+    {
+      "name": "Tucker Jackson",
+      "img": "public/img/jackson",
+      "bio": "I'm cool nice and funny. I like good things and dislike bad ones. I'm a fan of television, movies, sports, music, and friendship.",
+      "github": "https://github.com/EliOJackson",
+      "linkedin": "https://www.linkedin.com/in/tuckerelijackson/",
+      "site": "",
+      "cap1": "https://tucker-jackson-capstone.firebaseapp.com/",
+      "cap2": "",
+      "superlative": ""
+    },
+    {
+      "name": "David Ketch",
+      "img": "public/img/ketch",
+      "bio": "Former: academic philosophy, current: software developer. Fintech, legal tech.",
+      "github": "github.com/davidlarsketch",
+      "linkedin": "linkedin.com/in/davidlarsketch",
+      "site": "",
+      "cap1": "https://aardappel-nss.firebaseapp.com/",
+      "cap2": "",
+      "superlative": "Most Likely to Burn Out"
+    },
+    {
+      "name": "Ben Marcantel",
+      "img": "public/img/marcantel",
+      "bio": "",
+      "github": "",
+      "linkedin": "",
+      "site": "",
+      "cap1": "",
+      "cap2": "",
+      "superlative": ""
+    },
+    {
+      "name": "Griffin Markay",
+      "img": "public/img/markay",
+      "bio": "",
+      "github": "",
+      "linkedin": "",
+      "site": "",
+      "cap1": "",
+      "cap2": "",
+      "superlative": ""
+    },
+    {
+      "name": "Sarah Morris",
+      "img": "public/img/morris",
+      "bio": "Self-proclaimed wine connoisseur (WSET level two student); pursuing my private pilot's license; Apple cult member (kidding...sort of); mindfulness meditator",
+      "github": "www.github.com/sarahmorris926",
+      "linkedin": "www.linkedin.com/in/sarahmorris926",
+      "site": "",
+      "cap1": "",
+      "cap2": "",
+      "superlative": "Most Likely to Become a Band Director"
+    },
+    {
+      "name": "Trey Mosley",
+      "img": "public/img/mosley",
+      "bio": "",
+      "github": "",
+      "linkedin": "",
+      "site": "",
+      "cap1": "",
+      "cap2": "",
+      "superlative": ""
+    },
+    {
+      "name": "Craig Orcutt",
+      "img": "public/img/orcutt",
+      "bio": "",
+      "github": "",
+      "linkedin": "",
+      "site": "",
+      "cap1": "",
+      "cap2": "",
+      "superlative": ""
+    },
+    {
+      "name": "Hunter Phillips",
+      "img": "public/img/phillips",
+      "bio": "Current interests: python, machine learning, Freakonomics Radio, Nashville breweries",
+      "github": "https://github.com/hunterphillips",
+      "linkedin": "https://www.linkedin.com/in/hunter-phillips-9770a612a/",
+      "site": "",
+      "cap1": "https://github.com/hunterphillips/countdown/releases",
+      "cap2": "",
+      "superlative": "Most Likely to Open a Resturant"
+    },
+    {
+      "name": "Kate Rieger",
+      "img": "public/img/rieger",
+      "bio": "Can I respond to this later?",
+      "github": "https://github.com/krieger27",
+      "linkedin": "https://www.linkedin.com/in/katherine-r-62698b44/",
+      "site": "",
+      "cap1": "",
+      "cap2": "",
+      "superlative": "Most Likely to Know Everything About You"
+    },
+    {
+      "name": "Kyle Saldana",
+      "img": "public/img/saldana",
+      "bio": "I am result of intriguing accidents in life.",
+      "github": "https://github.com/kylesaldana5",
+      "linkedin": "https://www.linkedin.com/in/kyle-saldana-4264a4bb/",
+      "site": "",
+      "cap1": "",
+      "cap2": "",
+      "superlative": "Most Likely to Play Air Guitar at his Desk"
+    },
+    {
+      "name": "Slade Utley",
+      "img": "public/img/utley",
+      "bio": "",
+      "github": "",
+      "linkedin": "",
+      "site": "",
+      "cap1": "",
+      "cap2": "",
+      "superlative": ""
+    },
+    {
+      "name": "Eli Wilson",
+      "img": "public/img/wilson",
+      "bio": "I like rock climbing and sky diving",
+      "github": "https://github.com/e-x-wilson",
+      "linkedin": "https://www.linkedin.com/in/eli-wilson/",
+      "site": "",
+      "cap1": "https://galaxy-game-blog.firebaseapp.com/",
+      "cap2": "",
+      "superlative": "Most Likely to Not Answer This Question"
+    },
+    {
+      "name": "Aaron Wolfcale",
+      "img": "public/img/wolfcale",
+      "bio": "",
+      "github": "",
+      "linkedin": "",
+      "site": "",
+      "cap1": "",
+      "cap2": "",
+      "superlative": ""
+    },
+    {
+      "name": "Spencer York",
+      "img": "public/img/york",
+      "bio": "Chocolate milk runs through my veins.",
+      "github": "https://github.com/spenceryork",
+      "linkedin": "https://www.linkedin.com/in/spencerwyork/",
+      "site": "",
+      "cap1": "https://our-stay.firebaseapp.com",
+      "cap2": "",
+      "superlative": "Most Likely to be Friends With the Dog at a Party"
+    }
+  ]
+}

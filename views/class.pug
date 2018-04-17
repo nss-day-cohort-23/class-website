@@ -1,0 +1,37 @@
+each student in students
+  .student
+    if student
+      .imgs(data-toggle='modal', data-target='#'+student.name.split(" ").reverse()[0])
+        img(src=student.img+'1.jpg')
+        img(src=student.img+'2.jpg')
+      h4= student.name
+      .modal.fade(tabindex='-1', role='dialog', id=student.name.split(" ").reverse()[0])
+        .modal-dialog
+          .modal-content
+            .modal-body
+              .row
+                .col.col-6.col-lg-4
+                  img(src=student.img+'2.jpg')
+                  h4= student.name
+                .col.col-6.col-lg-8
+                  if student.superlative
+                    blockquote= student.superlative
+                  p= student.bio
+                  .bottom-line
+                    if student.site
+                      a(href=student.site,target='_blank')
+                        i.material-icons= 'link'
+                    if student.cap1
+                      a(href=student.cap1,target='_blank')
+                        i.material-icons= 'extension'
+                    if student.cap2
+                      a(href=student.cap2,target='_blank')
+                        i.material-icons= 'extension'
+                    if student.github
+                      a(href=student.github, target='_blank')
+                        img(src='public/img/github.png')
+                    if student.linkedin
+                      a(href=student.linkedin, target='_blank')
+                        img(src='public/img/linkedin.png')
+                    button.close(type='button',data-dismiss='modal',aria-label='Close')
+                      span(aria-hidden='true')= 'x'

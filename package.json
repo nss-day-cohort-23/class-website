@@ -4,7 +4,9 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon app.js",
+    "css:build": "node-sass scss/style.scss public/css/style.css",
+    "css:watch": "nodemon -e scss -x \"npm run css:build\""
   },
   "repository": {
     "type": "git",
@@ -16,5 +18,11 @@
   "bugs": {
     "url": "https://github.com/nss-day-cohort-23/class-website/issues"
   },
-  "homepage": "https://github.com/nss-day-cohort-23/class-website#readme"
+  "homepage": "https://github.com/nss-day-cohort-23/class-website#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "node-sass": "^4.8.3",
+    "nodemon": "^1.17.3",
+    "pug": "^2.0.3"
+  }
 }

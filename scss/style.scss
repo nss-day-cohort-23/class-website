@@ -1,0 +1,208 @@
+$xsmall-small: 30rem;
+$small-medium: 45rem;
+$medium-large: 60rem;
+$large-xlarge: 70rem;
+
+@font-face {
+  font-family: 'Olde English';
+  src: url('/public/fonts/OldeEnglish.ttf') format('truetype');
+}
+
+body {
+  margin: auto;
+  text-align: center;
+  background: radial-gradient(ellipse at center, #fff 0%, #fff 75%, #EBE1DF 100%);
+  display: grid;
+  grid-gap: 1.5rem;
+  padding: 1rem;
+  grid-template-columns: repeat(2, 1fr);
+  @media (min-width: $xsmall-small) {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  @media (min-width: $small-medium) {
+    grid-template-columns: repeat(12, 1fr);
+  }
+  @media (min-width: $medium-large) {
+    grid-template-columns: repeat(16, 1fr);
+  }
+  @media (min-width: $large-xlarge) {
+    grid-template-columns: repeat(18, 1fr);
+  }
+}
+img {
+  max-width: 100%;
+}
+
+h1,h3 {
+  font-family: 'Olde English';
+  font-weight: 400;
+  font-size: 4rem;
+  margin: 1rem 0;
+}
+h3 {
+  font-size: 3rem;
+}
+h4 {
+  font-size: 1.25rem;
+  margin-top: 1rem;
+  font-family: 'Kavivanar';
+  font-weight: 400;
+}
+h1 {
+  grid-row: 1 / span 1;
+  grid-column: 1 / -1;
+}
+i.material-icons {
+  font-size: 2rem;
+  color: rgba(0, 0, 0, 0.25);
+  &:hover {
+    color: rgba(0,0,0,.4);
+  }
+}
+blockquote {
+  font-family: 'Kavivanar';
+}
+#school {
+  grid-row: 2 / span 1;
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-rows: 1fr auto;
+  @media (min-width: $small-medium) {
+    grid-column: 2 / span 10;
+  }
+  @media (min-width: $medium-large) {
+    padding: 0 1rem 1rem 1rem;
+    grid-column: 5 / span 8;
+  }
+  @media (min-width: $large-xlarge) {
+    grid-column: 5 / span 10;
+  }
+  .img {
+    position: relative;
+    img {
+      position: relative;
+      top: 0;
+      left: 0;
+      &:nth-child(1) {
+        filter: sepia(20%) grayscale(60%) brightness(90%) contrast(120%) brightness(110%);
+      }
+      &:nth-child(2) {
+        opacity: 0;
+        position: absolute;
+        transition: .2s ease-in;
+      }
+      &:hover {
+        &:nth-child(2) {
+          opacity: 1;
+        }
+      }
+    }
+    &:hover {
+      div:nth-child(2) {
+        opacity: 1;
+      }
+    }
+  }
+  .text {
+    font-family: "Olde English";
+    font-size: 4rem;
+    padding-top: .5rem;
+  }
+}
+.student {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-between;
+  height: 100%;
+  @media (min-width: $small-medium) {
+    grid-column: span 2;
+  }
+  @media (min-width: $small-medium) and (max-width: $medium-large) {
+    &:nth-child(3), &:nth-child(14) {
+      grid-column: 2 / span 2;
+    }
+    &:nth-child(25) {
+      grid-column: 4 / span 2;
+    }
+  }
+  @media (min-width: $medium-large) and (max-width: $large-xlarge) {
+    &:nth-child(3), &:nth-child(4), &:nth-child(5), &:nth-child(6) {
+      padding-top: 3rem;
+    }
+    &:nth-child(7) {
+      grid-column: 2 / span 2;
+    }
+    &:nth-child(22) {
+      grid-column: 3 / span 2;
+    }
+  }
+  @media (min-width: $large-xlarge) {
+    &:nth-child(3), &:nth-child(4), &:nth-child(5), &:nth-child(6) {
+      padding-top: 8rem;
+    }
+    &:nth-child(7) {
+      grid-column: 2 / span 2;
+    }
+    &:nth-child(15) {
+      grid-column: 3 / span 2;
+    }
+    &:nth-child(22) {
+      grid-column: 4 / span 2;
+    }
+  }
+  .imgs {
+    position: relative;
+  }
+  img {
+    border-radius: 50%;
+    box-shadow: 1px 2px 8px 0px rgba(0,0,0,0.3);
+  }
+  img:nth-child(1) {
+    filter: sepia(20%) grayscale(60%) brightness(60%) contrast(120%) brightness(160%);
+  }
+  img:nth-child(2) {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: .2s ease-in;
+  }
+  &:hover img:nth-child(2) {
+    opacity: 1;
+  }
+}
+.modal {
+  .modal-body {
+    padding: 1.5rem;
+    img {
+      filter: none !important;
+    }
+    .col {
+      display: flex;
+      flex-direction: column;
+      justify-content: stretch;
+      * { 
+        flex-grow: 1;
+      }
+      .bottom-line {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-self: flex-end;
+        flex-grow: 0;
+        img {
+          border-radius: 0;
+          box-shadow: none;
+          width: 2rem;
+          height: auto;
+          opacity: .25;
+          &:hover {
+            opacity: .4;
+          }
+        }
+      }
+    }
+  }
+}

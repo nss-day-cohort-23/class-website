@@ -1,0 +1,163 @@
+@font-face {
+  font-family: 'Olde English';
+  src: url("/public/fonts/OldeEnglish.ttf") format("truetype"); }
+
+body {
+  margin: auto;
+  text-align: center;
+  background: radial-gradient(ellipse at center, #fff 0%, #fff 75%, #EBE1DF 100%);
+  display: grid;
+  grid-gap: 1.5rem;
+  padding: 1rem;
+  grid-template-columns: repeat(2, 1fr); }
+  @media (min-width: 30rem) {
+    body {
+      grid-template-columns: repeat(4, 1fr); } }
+  @media (min-width: 45rem) {
+    body {
+      grid-template-columns: repeat(12, 1fr); } }
+  @media (min-width: 60rem) {
+    body {
+      grid-template-columns: repeat(16, 1fr); } }
+  @media (min-width: 70rem) {
+    body {
+      grid-template-columns: repeat(18, 1fr); } }
+
+img {
+  max-width: 100%; }
+
+h1, h3 {
+  font-family: 'Olde English';
+  font-weight: 400;
+  font-size: 4rem;
+  margin: 1rem 0; }
+
+h3 {
+  font-size: 3rem; }
+
+h4 {
+  font-size: 1.25rem;
+  margin-top: 1rem;
+  font-family: 'Kavivanar';
+  font-weight: 400; }
+
+h1 {
+  grid-row: 1 / span 1;
+  grid-column: 1 / -1; }
+
+i.material-icons {
+  font-size: 2rem;
+  color: rgba(0, 0, 0, 0.25); }
+  i.material-icons:hover {
+    color: rgba(0, 0, 0, 0.4); }
+
+blockquote {
+  font-family: 'Kavivanar'; }
+
+#school {
+  grid-row: 2 / span 1;
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-rows: 1fr auto; }
+  @media (min-width: 45rem) {
+    #school {
+      grid-column: 2 / span 10; } }
+  @media (min-width: 60rem) {
+    #school {
+      padding: 0 1rem 1rem 1rem;
+      grid-column: 5 / span 8; } }
+  @media (min-width: 70rem) {
+    #school {
+      grid-column: 5 / span 10; } }
+  #school .img {
+    position: relative; }
+    #school .img img {
+      position: relative;
+      top: 0;
+      left: 0; }
+      #school .img img:nth-child(1) {
+        filter: sepia(20%) grayscale(60%) brightness(90%) contrast(120%) brightness(110%); }
+      #school .img img:nth-child(2) {
+        opacity: 0;
+        position: absolute;
+        transition: .2s ease-in; }
+      #school .img img:hover:nth-child(2) {
+        opacity: 1; }
+    #school .img:hover div:nth-child(2) {
+      opacity: 1; }
+  #school .text {
+    font-family: "Olde English";
+    font-size: 4rem;
+    padding-top: .5rem; }
+
+.student {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-between;
+  height: 100%; }
+  @media (min-width: 45rem) {
+    .student {
+      grid-column: span 2; } }
+  @media (min-width: 45rem) and (max-width: 60rem) {
+    .student:nth-child(3), .student:nth-child(14) {
+      grid-column: 2 / span 2; }
+    .student:nth-child(25) {
+      grid-column: 4 / span 2; } }
+  @media (min-width: 60rem) and (max-width: 70rem) {
+    .student:nth-child(3), .student:nth-child(4), .student:nth-child(5), .student:nth-child(6) {
+      padding-top: 3rem; }
+    .student:nth-child(7) {
+      grid-column: 2 / span 2; }
+    .student:nth-child(22) {
+      grid-column: 3 / span 2; } }
+  @media (min-width: 70rem) {
+    .student:nth-child(3), .student:nth-child(4), .student:nth-child(5), .student:nth-child(6) {
+      padding-top: 8rem; }
+    .student:nth-child(7) {
+      grid-column: 2 / span 2; }
+    .student:nth-child(15) {
+      grid-column: 3 / span 2; }
+    .student:nth-child(22) {
+      grid-column: 4 / span 2; } }
+  .student .imgs {
+    position: relative; }
+  .student img {
+    border-radius: 50%;
+    box-shadow: 1px 2px 8px 0px rgba(0, 0, 0, 0.3); }
+  .student img:nth-child(1) {
+    filter: sepia(20%) grayscale(60%) brightness(60%) contrast(120%) brightness(160%); }
+  .student img:nth-child(2) {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: .2s ease-in; }
+  .student:hover img:nth-child(2) {
+    opacity: 1; }
+
+.modal .modal-body {
+  padding: 1.5rem; }
+  .modal .modal-body img {
+    filter: none !important; }
+  .modal .modal-body .col {
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch; }
+    .modal .modal-body .col * {
+      flex-grow: 1; }
+    .modal .modal-body .col .bottom-line {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      align-self: flex-end;
+      flex-grow: 0; }
+      .modal .modal-body .col .bottom-line img {
+        border-radius: 0;
+        box-shadow: none;
+        width: 2rem;
+        height: auto;
+        opacity: .25; }
+        .modal .modal-body .col .bottom-line img:hover {
+          opacity: .4; }
