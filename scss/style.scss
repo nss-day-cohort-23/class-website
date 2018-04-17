@@ -214,6 +214,9 @@ blockquote {
 #charts {
   padding-bottom: 2rem;
   grid-column: 1 / -1;
+  h4 {
+    margin-bottom: 1rem;
+  }
   .chart {
     margin-bottom: 2rem;
   }

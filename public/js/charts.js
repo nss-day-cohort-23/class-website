@@ -11,6 +11,11 @@ let editorsChart = new Chart(editorsCtx, {
                 '#6b5f57'
             ]
         }],
+    },
+    options: {
+        legend: {
+            position: 'bottom'
+        }
     }
 });
 let osCtx = document.getElementById("os").getContext('2d');
@@ -26,13 +31,18 @@ let osChart = new Chart(osCtx, {
                 '#6b5f57'
             ]
         }],
+    },
+    options: {
+        legend: {
+            position: 'bottom'
+        }
     }
 });
 let animalCtx = document.getElementById("animal").getContext('2d');
 let animalChart = new Chart(animalCtx, {
     type: 'pie',
     data: {
-        labels: ['Cat people', 'Dog people', 'Reptile people', 'Bird people'],
+        labels: ['Cats', 'Dogs', 'Reptiles', 'Birds'],
         datasets: [{
             data: [2, 13, 1, 1],
             backgroundColor: [
@@ -41,6 +51,11 @@ let animalChart = new Chart(animalCtx, {
                 '#2A2A3D'
             ]
         }],
+    },
+    options: {
+        legend: {
+            position: 'bottom'
+        }
     }
 });
 let genderCtx = document.getElementById("gender").getContext('2d');
@@ -56,5 +71,10 @@ let genderChart = new Chart(genderCtx, {
                 '#A68D7B',
             ]
         }],
+    },
+    options: {
+        legend: {
+            position: 'bottom'
+        }
     }
 });
