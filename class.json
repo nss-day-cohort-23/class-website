@@ -6,7 +6,7 @@
       "bio": "gardening, jigsaw puzzles, hiking, baking",
       "github": "https://github.com/kenziebottoms",
       "linkedin": "https://www.linkedin.com/in/kenzie-bottoms/",
-      "site": "",
+      "site": "https://melissabell456.github.io/MelissaBell_Portfolio/",
       "cap1": "https://mygarden-f2283.firebaseapp.com",
       "cap2": "",
       "superlative": "Most Likely to Ask a Question"
@@ -179,24 +179,24 @@
     {
       "name": "Trey Mosley",
       "img": "public/img/mosley",
-      "bio": "",
-      "github": "",
-      "linkedin": "",
-      "site": "",
-      "cap1": "",
+      "bio": "UI development, API/data enthusiast, dabbler of IoT, coffee addict, (/^Princes|Pepperfire$/).test(hotChicken) ? partyOn() : reEval()",
+      "github": "https://github.com/iiimosley",
+      "linkedin": "https://www.linkedin.com/in/iiimosley/",
+      "site": "https://iiimosley.github.io",
+      "cap1": "https://synthulx.firebaseapp.com",
       "cap2": "",
-      "superlative": ""
+      "superlative": "Most Likely to use Flexbox"
     },
     {
       "name": "Craig Orcutt",
       "img": "public/img/orcutt",
-      "bio": "",
-      "github": "",
-      "linkedin": "",
-      "site": "",
-      "cap1": "",
+      "bio": "Backpacker, gardener, woodworker, styling enthusiast",
+      "github": "https://github.com/Craig-Orcutt",
+      "linkedin": "https://www.linkedin.com/in/craig-orcutt/",
+      "site": "https://craig-orcutt.github.io/",
+      "cap1": "https://scorecard-2a336.firebaseapp.com/#!/home",
       "cap2": "",
-      "superlative": ""
+      "superlative": "Most Likely to Smile and Node"
     },
     {
       "name": "Hunter Phillips",
