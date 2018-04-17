@@ -66,6 +66,11 @@
       "img": "public/img/sequelize.png"
     },
     {
+      "name": "Trello",
+      "link": "https://trello.com/",
+      "img": "public/img/trello.png"
+    },
+    {
       "name": "VS Code",
       "link": "https://code.visualstudio.com/",
       "img": "public/img/vscode.png"
