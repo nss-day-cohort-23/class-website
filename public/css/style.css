@@ -161,3 +161,9 @@ blockquote {
         opacity: .25; }
         .modal .modal-body .col .bottom-line img:hover {
           opacity: .4; }
+
+#charts {
+  grid-column: 1 / -1; }
+  @media (min-width: 60rem) {
+    #charts {
+      grid-column: 2 / -2; } }
