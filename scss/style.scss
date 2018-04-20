@@ -224,6 +224,18 @@ blockquote {
   .chart {
     margin-bottom: 2rem;
   }
+  .percentage {
+    padding: 1rem;
+    @media (min-with: $xsmall-small) {
+      padding: 2rem;
+    }
+    font-family: 'Kavivanar';
+    box-sizing: border-box;
+    .percent {
+      margin: 0;
+      font-size: 3rem;
+    }
+  }
   @media (min-width: $xsmall-small) {
     padding-left: 3rem;
     padding-right: 3rem;

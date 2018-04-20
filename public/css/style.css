@@ -171,6 +171,16 @@ blockquote {
     margin-bottom: 1rem; }
   #charts .chart {
     margin-bottom: 2rem; }
+  #charts .percentage {
+    padding: 1rem;
+    font-family: 'Kavivanar';
+    box-sizing: border-box; }
+    @media (min-with: 30rem) {
+      #charts .percentage {
+        padding: 2rem; } }
+    #charts .percentage .percent {
+      margin: 0;
+      font-size: 3rem; }
   @media (min-width: 30rem) {
     #charts {
       padding-left: 3rem;
