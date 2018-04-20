@@ -80,7 +80,7 @@ blockquote {
       #school .img img:nth-child(2) {
         opacity: 0;
         position: absolute;
-        transition: .2s ease-in; }
+        transition: .1s ease-in; }
       #school .img img:hover:nth-child(2) {
         opacity: 1; }
     #school .img:hover div:nth-child(2) {
@@ -132,7 +132,7 @@ blockquote {
     top: 0;
     left: 0;
     opacity: 0;
-    transition: .2s ease-in; }
+    transition: .1s ease-in; }
   .student:hover img:nth-child(2) {
     opacity: 1; }
 
@@ -140,6 +140,8 @@ blockquote {
   padding: 1.5rem; }
   .modal .modal-body img {
     filter: none !important; }
+  .modal .modal-body p {
+    text-align: left; }
   .modal .modal-body .col {
     display: flex;
     flex-direction: column;
@@ -161,3 +163,75 @@ blockquote {
         opacity: .25; }
         .modal .modal-body .col .bottom-line img:hover {
           opacity: .4; }
+
+#charts {
+  padding-bottom: 2rem;
+  grid-column: 1 / -1; }
+  #charts h4 {
+    margin-bottom: 1rem; }
+  #charts .chart {
+    margin-bottom: 2rem; }
+  #charts .percentage {
+    padding: 1rem;
+    font-family: 'Kavivanar';
+    box-sizing: border-box; }
+    @media (min-with: 30rem) {
+      #charts .percentage {
+        padding: 2rem; } }
+    #charts .percentage .percent {
+      margin: 0;
+      font-size: 3rem; }
+  @media (min-width: 30rem) {
+    #charts {
+      padding-left: 3rem;
+      padding-right: 3rem; } }
+  @media (min-width: 45rem) {
+    #charts {
+      padding-left: 0;
+      padding-right: 0;
+      grid-column: 2 / -2; }
+      #charts .chart {
+        margin-bottom: 0; } }
+  @media (min-width: 60rem) {
+    #charts {
+      grid-column: 2 / -2; } }
+
+#tech {
+  padding-bottom: 2rem;
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); }
+  #tech .tech {
+    padding: 1rem 2rem;
+    filter: sepia(20%) grayscale(60%) brightness(90%) contrast(120%) brightness(110%);
+    text-align: center; }
+    #tech .tech a {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      text-decoration: none;
+      color: inherit;
+      text-align: center; }
+    #tech .tech:hover {
+      filter: none; }
+  @media (min-width: 30rem) {
+    #tech {
+      grid-template-columns: repeat(3, 1fr); } }
+  @media (min-width: 45rem) {
+    #tech {
+      grid-template-columns: repeat(6, 1fr); }
+      #tech .tech {
+        padding: 1rem; } }
+  @media (min-width: 60rem) {
+    #tech {
+      grid-column: 2 / -2;
+      grid-template-columns: repeat(6, 1fr); }
+      #tech .tech {
+        padding: 2rem; } }
+  @media (min-width: 70rem) {
+    #tech {
+      grid-column: 2 / -2;
+      grid-template-columns: repeat(8, 1fr); }
+      #tech .tech {
+        padding: 1.5rem; } }

@@ -80,24 +80,24 @@
     {
       "name": "Eduardo DuQuesne",
       "img": "public/img/duquesne",
-      "bio": "",
-      "github": "",
-      "linkedin": "",
+      "bio": "I have an insatiable desire to learn and am constantly striving to improve.",
+      "github": "https://github.com/EduardoDuQuesne",
+      "linkedin": "https://www.linkedin.com/in/eduardoduquesne/",
       "site": "",
-      "cap1": "",
+      "cap1": "http://terrible-techno.firebaseapp.com/",
       "cap2": "",
-      "superlative": ""
+      "superlative": "Most Likely to Give a Great High Five"
     },
     {
       "name": "Valerie Freeman",
       "img": "public/img/freeman",
-      "bio": "",
-      "github": "",
-      "linkedin": "",
+      "bio": "Problem solving, UI/UX, art, food, games",
+      "github": "https://github.com/Valerie-Freeman",
+      "linkedin": "https://www.linkedin.com/in/valerie-freeman-327b18139/",
       "site": "",
       "cap1": "",
       "cap2": "",
-      "superlative": ""
+      "superlative": "Most Likely to Punch a Computer"
     },
     {
       "name": "Brandon Green",
@@ -113,13 +113,13 @@
     {
       "name": "David Hazlett",
       "img": "public/img/hazlett",
-      "bio": "",
-      "github": "",
-      "linkedin": "",
+      "bio": "I think of myself as a creator. Regardless if its a photo, video or web application, as long as someone gets joy out of it, then its fullfilling to me.",
+      "github": "https://github.com/dhazlettjr",
+      "linkedin": "https://www.linkedin.com/in/david-hazlett-jr-8312516b/",
       "site": "",
       "cap1": "",
       "cap2": "",
-      "superlative": ""
+      "superlative": "Most Likely to Live in a Van Down by the River"
     },
     {
       "name": "Tucker Jackson",
@@ -133,37 +133,37 @@
       "superlative": ""
     },
     {
-      "name": "David Ketch",
+      "name": "David Lars Ketch",
       "img": "public/img/ketch",
       "bio": "Former: academic philosophy, current: software developer. Fintech, legal tech.",
       "github": "github.com/davidlarsketch",
       "linkedin": "linkedin.com/in/davidlarsketch",
-      "site": "",
+      "site": "https://davidlarsketch.github.io/",
       "cap1": "https://aardappel-nss.firebaseapp.com/",
       "cap2": "",
-      "superlative": "Most Likely to Burn Out"
+      "superlative": "Most Likely to Go Blind Because of High Screen Resolution"
     },
     {
       "name": "Ben Marcantel",
       "img": "public/img/marcantel",
-      "bio": "",
-      "github": "",
-      "linkedin": "",
+      "bio": "AI, animation, music--hopefully at the same time",
+      "github": "https://github.com/ben-marcantel",
+      "linkedin": "https://www.linkedin.com/in/ben-marcantel-7552a614/",
       "site": "",
       "cap1": "",
       "cap2": "",
-      "superlative": ""
+      "superlative": "Most Likely to Make a Singing Digital Plant"
     },
     {
       "name": "Griffin Markay",
       "img": "public/img/markay",
-      "bio": "",
-      "github": "",
-      "linkedin": "",
+      "bio": "No problem too problematic, no question too convoluted, no error too fatal, no requirement too vague. I live to solve problems, and problems live to be solved by me.",
+      "github": "https://github.com/gmarkay",
+      "linkedin": "https://www.linkedin.com/in/griffinmarkay/",
       "site": "",
-      "cap1": "",
+      "cap1": "hangbot-9000.firebaseapp.com",
       "cap2": "",
-      "superlative": ""
+      "superlative": "Most Like to Create SkyNet"
     },
     {
       "name": "Sarah Morris",
@@ -234,13 +234,13 @@
     {
       "name": "Slade Utley",
       "img": "public/img/utley",
-      "bio": "",
-      "github": "",
-      "linkedin": "",
+      "bio": "I like lamp",
+      "github": "https://github.com/sladeutley",
+      "linkedin": "https://www.linkedin.com/in/slade-utley-869a5815a/",
       "site": "",
-      "cap1": "",
+      "cap1": "https://balance-a7ec9.firebaseapp.com/",
       "cap2": "",
-      "superlative": ""
+      "superlative": "Most Likely to Be at Baja Burrito"
     },
     {
       "name": "Eli Wilson",
@@ -248,7 +248,7 @@
       "bio": "I like rock climbing and sky diving",
       "github": "https://github.com/e-x-wilson",
       "linkedin": "https://www.linkedin.com/in/eli-wilson/",
-      "site": "",
+      "site": "https://e-x-wilson.github.io",
       "cap1": "https://galaxy-game-blog.firebaseapp.com/",
       "cap2": "",
       "superlative": "Most Likely to Not Answer This Question"

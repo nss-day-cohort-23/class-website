@@ -1,0 +1,8 @@
+#tech
+  h1= 'Technologies'
+  for tech in techStack
+    .tech
+      a(href=tech.link,target='_blank')
+        .img
+          img(src=tech.img, alt=tech.name)
+        h4= tech.name

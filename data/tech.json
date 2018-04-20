@@ -1,0 +1,84 @@
+{
+  "techStack": [
+    {
+      "name": "AngularJS",
+      "link": "https://angularjs.org/",
+      "img": "public/img/angularjs.png"
+    },
+    {
+      "name": "Bootstrap",
+      "link": "https://getbootstrap.com/",
+      "img": "public/img/bootstrap.png"
+    },
+    {
+      "name": "Firebase",
+      "link": "https://firebase.google.com/",
+      "img": "public/img/firebase.png"
+    },
+    {
+      "name": "Git",
+      "link": "https://git-scm.com/",
+      "img": "public/img/git.png"
+    },
+    {
+      "name": "Grunt",
+      "link": "https://gruntjs.com/",
+      "img": "public/img/grunt.png"
+    },
+    {
+      "name": "Materialize",
+      "link": "http://materializecss.com/",
+      "img": "public/img/materialize.png"
+    },
+    {
+      "name": "Mocha",
+      "link": "https://mochajs.org/",
+      "img": "public/img/mocha.svg"
+    },
+    {
+      "name": "Node.js",
+      "link": "https://nodejs.org/en/",
+      "img": "public/img/node.png"
+    },
+    {
+      "name": "Node Package Manager",
+      "link": "https://www.npmjs.com/",
+      "img": "public/img/npm.png"
+    },
+    {
+      "name": "PostgreSQL",
+      "link": "https://www.postgresql.org/",
+      "img": "public/img/postgresql.png"
+    },
+    {
+      "name": "Pug",
+      "link": "https://pugjs.org/api/getting-started.html",
+      "img": "public/img/pug.png"
+    },
+    {
+      "name": "Sass",
+      "link": "https://sass-lang.com/",
+      "img": "public/img/sass.svg"
+    },
+    {
+      "name": "Sequelize",
+      "link": "http://docs.sequelizejs.com/",
+      "img": "public/img/sequelize.png"
+    },
+    {
+      "name": "Slack",
+      "link": "https://slack.com/",
+      "img": "public/img/slack.png"
+    },
+    {
+      "name": "Trello",
+      "link": "https://trello.com/",
+      "img": "public/img/trello.png"
+    },
+    {
+      "name": "VS Code",
+      "link": "https://code.visualstudio.com/",
+      "img": "public/img/vscode.png"
+    }
+  ]
+}
