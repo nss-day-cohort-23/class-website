@@ -4,7 +4,7 @@ let editorsChart = new Chart(editorsCtx, {
     data: {
         labels: ['VS Code', 'Atom', 'Webstorm'],
         datasets: [{
-            data: [16, 1, 1],
+            data: [21, 1, 1],
             backgroundColor: [
                 '#2A2A3D',
                 '#E6E3EA',
@@ -24,7 +24,7 @@ let osChart = new Chart(osCtx, {
     data: {
         labels: ['Windows', 'Linux', 'Mac'],
         datasets: [{
-            data: [4, 2, 12],
+            data: [4, 2, 17],
             backgroundColor: [
                 '#E6E3EA',
                 '#2A2A3D',
@@ -42,13 +42,15 @@ let animalCtx = document.getElementById("animal").getContext('2d');
 let animalChart = new Chart(animalCtx, {
     type: 'pie',
     data: {
-        labels: ['Cats', 'Dogs', 'Reptiles', 'Birds'],
+        labels: ['Cats', 'Dogs', 'Reptiles', 'Birds', 'All of them'],
         datasets: [{
-            data: [2, 13, 1, 1],
+            data: [3, 16, 1, 1, 2],
             backgroundColor: [
                 '#6b5f57',
                 '#A68D7B',
-                '#2A2A3D'
+                '#E6E3EA',
+                '#2A2A3D',
+                '#cec9ad'
             ]
         }],
     },
@@ -64,7 +66,7 @@ let genderChart = new Chart(genderCtx, {
     data: {
         labels: ['Other', 'Male', 'Female'],
         datasets: [{
-            data: [1, 11, 6],
+            data: [1, 16, 6],
             backgroundColor: [
                 '#E6E3EA',
                 '#2A2A3D',

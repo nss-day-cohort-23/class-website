@@ -7,6 +7,7 @@ $chart-1: #6b5f57;
 $chart-2: #A68D7B;
 $chart-3: #E6E3EA;
 $chart-4: #2A2A3D;
+$chart-5: #cec9ad;
 
 @font-face {
   font-family: 'Olde English';
@@ -182,6 +183,9 @@ blockquote {
     padding: 1.5rem;
     img {
       filter: none !important;
+    }
+    p {
+      text-align: left;
     }
     .col {
       display: flex;

@@ -140,6 +140,8 @@ blockquote {
   padding: 1.5rem; }
   .modal .modal-body img {
     filter: none !important; }
+  .modal .modal-body p {
+    text-align: left; }
   .modal .modal-body .col {
     display: flex;
     flex-direction: column;
