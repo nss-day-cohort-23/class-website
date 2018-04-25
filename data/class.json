@@ -3,7 +3,7 @@
     {
       "name": "Melissa Bell",
       "img": "public/img/bell",
-      "bio": "gardening, jigsaw puzzles, hiking, baking",
+      "bio": "Gardening, jigsaw puzzles, hiking, baking",
       "github": "https://github.com/kenziebottoms",
       "linkedin": "https://www.linkedin.com/in/kenzie-bottoms/",
       "site": "https://melissabell456.github.io/MelissaBell_Portfolio/",
@@ -58,7 +58,7 @@
     {
       "name": "Joe Chesney",
       "img": "public/img/chesney",
-      "bio": "I was born to create",
+      "bio": "I was born to create.",
       "github": "https://github.com/joechesney",
       "linkedin": "https://www.linkedin.com/in/joe-chesney-216846b2/",
       "site": "",
@@ -69,7 +69,7 @@
     {
       "name": "Tim A. Conner",
       "img": "public/img/conner",
-      "bio": "Creative writing, world-building, horticulture, game development, linguistics, chess, and pen-and-ink drawing.",
+      "bio": "Creative writing, world-building, horticulture, game development, linguistics, chess, and pen-and-ink drawing",
       "github": "https://github.com/TimAConner",
       "linkedin": "https://www.linkedin.com/in/TimAConner",
       "site": "",
@@ -113,7 +113,7 @@
     {
       "name": "David Hazlett",
       "img": "public/img/hazlett",
-      "bio": "I think of myself as a creator. Regardless if its a photo, video or web application, as long as someone gets joy out of it, then its fullfilling to me.",
+      "bio": "I think of myself as a creator. Regardless if it's a photo, video or web application, as long as someone gets joy out of it, then it's fullfilling to me.",
       "github": "https://github.com/dhazlettjr",
       "linkedin": "https://www.linkedin.com/in/david-hazlett-jr-8312516b/",
       "site": "",
@@ -130,7 +130,7 @@
       "site": "",
       "cap1": "https://tucker-jackson-capstone.firebaseapp.com/",
       "cap2": "",
-      "superlative": ""
+      "superlative": "Best Friday Funnies"
     },
     {
       "name": "David Lars Ketch",
@@ -146,7 +146,7 @@
     {
       "name": "Ben Marcantel",
       "img": "public/img/marcantel",
-      "bio": "AI, animation, music--hopefully at the same time",
+      "bio": "AI, animation, music—hopefully at the same time",
       "github": "https://github.com/ben-marcantel",
       "linkedin": "https://www.linkedin.com/in/ben-marcantel-7552a614/",
       "site": "",
@@ -185,7 +185,7 @@
       "site": "https://iiimosley.github.io",
       "cap1": "https://synthulx.firebaseapp.com",
       "cap2": "",
-      "superlative": "Most Likely to use Flexbox"
+      "superlative": "Most Likely to Use Flexbox"
     },
     {
       "name": "Craig Orcutt",
@@ -207,7 +207,7 @@
       "site": "",
       "cap1": "https://github.com/hunterphillips/countdown/releases",
       "cap2": "",
-      "superlative": "Most Likely to Open a Resturant"
+      "superlative": "Most Likely to Open a Restaurant"
     },
     {
       "name": "Kate Rieger",
@@ -234,7 +234,7 @@
     {
       "name": "Slade Utley",
       "img": "public/img/utley",
-      "bio": "I like lamp",
+      "bio": "I like lamp.",
       "github": "https://github.com/sladeutley",
       "linkedin": "https://www.linkedin.com/in/slade-utley-869a5815a/",
       "site": "",
@@ -245,7 +245,7 @@
     {
       "name": "Eli Wilson",
       "img": "public/img/wilson",
-      "bio": "I like rock climbing and sky diving",
+      "bio": "I like rock climbing and sky diving.",
       "github": "https://github.com/e-x-wilson",
       "linkedin": "https://www.linkedin.com/in/eli-wilson/",
       "site": "https://e-x-wilson.github.io",
@@ -256,11 +256,11 @@
     {
       "name": "Aaron Wolfcale",
       "img": "public/img/wolfcale",
-      "bio": "",
-      "github": "",
-      "linkedin": "",
+      "bio": "I'm a musician turned software developer who loves to use logic and creativity to solve complex problems.",
+      "github": "https://github.com/ajwolfcale",
+      "linkedin": "https://www.linkedin.com/in/aaronwolfcale/",
       "site": "",
-      "cap1": "",
+      "cap1": "https://macromaniac-nutrition.firebaseapp.com",
       "cap2": "",
       "superlative": ""
     },
